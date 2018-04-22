@@ -1,0 +1,34 @@
+{
+  "name": "wtc-canvastoimg",
+  "version": "1.0.3",
+  "description": "canvas根据配置生成对应的图片",
+  "main": "dist/js/canvastoimg.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcly861204/wtc-canvastoimg.git"
+  },
+  "keywords": [
+    "canvas img"
+  ],
+  "author": "tcly861204",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcly861204/wtc-canvastoimg/issues"
+  },
+  "homepage": "https://github.com/tcly861204/wtc-canvastoimg#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "browser-sync": "^2.23.7",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0"
+  }
+}
