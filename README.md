@@ -18,16 +18,16 @@ const cvsimg = new Canvastoimg({
     {
       type: 'text',
       zIndex: 2,
-      fontSize: 20,
+      fontSize: '20px 微软雅黑',
       x: 152,
       y: 186,
-      content: '江湖笑邀请你加入旅老板:',
+      content: '',
       color: '#212121',
     },
     {
       type: 'text',
       zIndex: 3,
-      fontSize: 12,
+      fontSize: '12px 微软雅黑',
       x: 206,
       y: 503,
       content: '欢迎加入',
@@ -44,6 +44,7 @@ const cvsimg = new Canvastoimg({
     },
     {
       type: 'img',
+      shape: 'arc',  //默认是矩形，  'arc代表画圆'
       zIndex: 1,
       x: 0,
       y: 0,
