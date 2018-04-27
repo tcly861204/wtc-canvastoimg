@@ -1,8 +1,8 @@
 {
   "name": "wtc-canvastoimg",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "description": "canvas根据配置生成对应的图片",
-  "main": "dist/js/canvastoimg.min.js",
+  "main": "dist/canvastoimg.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "gulp"

@@ -15,10 +15,8 @@ gulp.task('serve', function() {
   });
 });
 
-// canvastoimg.min
-/*压缩js*/
-gulp.task('default',['serve'],function (cb) {
-  return gulp.src("./src/*.js")
+gulp.task('minijs', function(){
+    return gulp.src("./src/*.js")
       .pipe(babel())
       .pipe(uglify({
         mangle: true, //类型：Boolean 默认：true 是否修改变量名
@@ -30,4 +28,10 @@ gulp.task('default',['serve'],function (cb) {
         path.extname = ".js"
       }))
       .pipe(gulp.dest("./dist"));
+});
+
+// canvastoimg.min
+/*压缩js*/
+gulp.task('default',['serve'],function (cb) {
+  gulp.watch('./src/*.js',['minijs']);
 });
