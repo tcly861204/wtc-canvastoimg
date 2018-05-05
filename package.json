@@ -1,6 +1,6 @@
 {
   "name": "wtc-canvastoimg",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "canvas根据配置生成对应的图片",
   "main": "dist/canvastoimg.min.js",
   "scripts": {
